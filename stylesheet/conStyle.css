@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#con{
+    width: 100%;
+    padding: 0 0.1rem;
+    box-sizing: border-box;
+}
+.con-top{
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+}
+.con-top >div{
+    width: 49%;
+    border: 1px solid #ececec;
+    height: 2.4rem;
+    text-align: center;
+    background: orange;
+}
+.con-center {
+    width: 100%;
+    margin: 0.1rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+.con-center >div{
+    width:32%;
+    height: 1.5rem;
+    border:1px solid #f8f8f8;
+    background: darkorange;
+}
+.con-bottom{
+    width: 100%;
+    height: 1.2rem;
+    text-align: center;
+}
+.con-bottom >div{
+    width:100%;
+    height: 1.2rem;
+    background: darkorchid;
+}
